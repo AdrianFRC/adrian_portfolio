@@ -35,8 +35,13 @@ const Contact = () => {
 
     emailjs
       .send(
+<<<<<<< HEAD
         "",
         "",
+=======
+        //SERVICE
+        //TEMPLATE
+>>>>>>> 3a97c5ecfbdaae107a6ed6ed4ec800719ec404a2
         {
           from_name: form.name,
           to_name: "Adrian",
@@ -44,7 +49,11 @@ const Contact = () => {
           to_email: "adrian.farcasel@gmail.com",
           message: form.message,
         },
+<<<<<<< HEAD
         ""
+=======
+        //ID
+>>>>>>> 3a97c5ecfbdaae107a6ed6ed4ec800719ec404a2
       )
       .then(
         () => {
