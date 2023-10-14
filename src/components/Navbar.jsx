@@ -48,10 +48,10 @@ const Navbar = () => {
           />
           <div
             className={`${
-              !toggle ? "hidden" : "flex"
+              ! toggle ? "hidden" : "flex"
             } pl-10 pt-20 absolute top-0 right-0 min-w-[240px] h-screen z-10 backdrop-blur-2xl`}
           >
-            <ul className="lis-none flex justify-start items-start flex-col gap-5">
+            <ul className="list-none flex justify-start items-start flex-col gap-5">
               {navLinks.map((Link) => (
                 <li
                   key={Link.id}

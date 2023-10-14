@@ -101,7 +101,7 @@ import {
       points: [
         "Organizzare le attività all'interno dello store: dall'arrivo delle merci ai turni del proprio team",
         "Analizzare i dati e misurare i risultati ottenuti, mettendo in atto azioni specifiche per raggiungere gli obiettivi di fatturato",
-        "Formare e supervisionare i dipendenti",
+        "Formare e supervisionare il team",
         "Problem Solving e precisione",
       ],
     },
@@ -115,15 +115,15 @@ import {
       tags: [
         {
           name: "HTML",
-          color: "text-[#F3B562] drop-shadow-md",
+          color: "text-[#004256] drop-shadow-md",
         },
         {
           name: "CSS",
-          color: "text-[#5C4B51] drop-shadow-md",
+          color: "text-[#004256] drop-shadow-md",
         },
         {
           name: "JavaScript",
-          color: "text-[#F06060] drop-shadow-md",
+          color: "text-[#004256] drop-shadow-md",
         },
       ],
       image: spacetourism,
@@ -136,15 +136,15 @@ import {
       tags: [
         {
           name: "react",
-          color: "text-[#F3B562] drop-shadow-md",
+          color: "text-[#004256] drop-shadow-md",
         },
         {
           name: "typescript",
-          color: "text-[#5C4B51] drop-shadow-md",
+          color: "text-[#004256] drop-shadow-md",
         },
         {
           name: "CSS",
-          color: "text-[#F06060] drop-shadow-md",
+          color: "text-[#004256] drop-shadow-md",
         },
       ],
       image: tictactoe,
@@ -157,15 +157,15 @@ import {
       tags: [
         {
           name: "HTML",
-          color: "text-[#F3B562] drop-shadow-md",
+          color: "text-[#004256] drop-shadow-md",
         },
         {
           name: "CSS",
-          color: "text-[#5C4B51] drop-shadow-md",
+          color: "text-[#004256] drop-shadow-md",
         },
         {
           name: "JavaScript",
-          color: "text-[#F06060] drop-shadow-md",
+          color: "text-[#004256] drop-shadow-md",
         },
       ],
       image: calculator,

@@ -17,7 +17,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.2, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -47,8 +47,8 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px] drop-shadow-md">{name}</h3>
-          <p className="text-[#655643]/[0.7] mt-2 font-semibold text-[16px]">
+          <h3 className="text-[#ffffff] font-bold text-[24px] drop-shadow-md">{name}</h3>
+          <p className="text-[#253D25]/[0.9] mt-2 font-semibold text-[16px]">
             {description}
           </p>
         </div>
@@ -68,14 +68,14 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant(0.5)}>
+      <motion.div variants={textVariant(0.1)}>
         <p className={styles.sectionSubText}>My work</p>
         <h2 className={`${styles.sectionHeadText} text-white drop-shadow-md`}>Projects</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0.2, 1)}
+          variants={fadeIn("", "", 0.1, 0.75)}
           className="mt-3 text-[#ffffff] text-[17px] max-w-3xl leading-[30px]"
         >
           Qui troverete una selezione dei lavori su cui ho lavorato con passione

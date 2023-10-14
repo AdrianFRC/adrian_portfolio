@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { StrongholdCanvas } from "./canvas";
 
@@ -11,7 +9,7 @@ const Hero = () => {
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#80BCA3]" />
-          <div className="w-1 sm:h-80 h-40 bg-gradient-to-r from-[#80BCA3]" />
+          <div className="w-1 sm:h-80 h-40 bg-gradient-to-b from-[#80BCA3]" />
         </div>
 
         <div>
@@ -31,7 +29,7 @@ const Hero = () => {
       <StrongholdCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
-        <div class="arrow">
+        <div className="arrow">
           <span></span>
           <span></span>
           <span></span>

@@ -21,7 +21,7 @@ const Stronghold = ({ isMobile }) => {
       />
       <primitive
         object={stronghold.scene}
-        scale={isMobile ? 1.5 : 2}
+        scale={isMobile ? 1.2 : 2}
         position={[0, -2, 0]}
         rotation={[0, 1, 0]}
       />
@@ -48,7 +48,7 @@ const StrongholdCanvas = () => {
     };
   }, []);
 
-  return (
+  return ( 
     <Canvas
       frameloop="demand"
       shadows

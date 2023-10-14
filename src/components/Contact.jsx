@@ -35,8 +35,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_px9g159",
-        "template_mo94a08",
+        "",
+        "",
         {
           from_name: form.name,
           to_name: "Adrian",
@@ -44,7 +44,7 @@ const Contact = () => {
           to_email: "adrian.farcasel@gmail.com",
           message: form.message,
         },
-        "dGKufVjMvXdl-0puq"
+        ""
       )
       .then(
         () => {
@@ -86,7 +86,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name"
-              className="bg-[#F6F7BD] py-4 px-6 placeholder:text-[#655643]/[0.7] text-white rounded-lg outline-none border-none font-medium"
+              className="bg-[#F6F7BD] py-4 px-6 placeholder:text-[#655643]/[0.7] text-[#33281E] rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
@@ -97,7 +97,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email"
-              className="bg-[#F6F7BD] py-4 px-6 placeholder:text-[#655643]/[0.7] text-white rounded-lg outline-none border-none font-medium"
+              className="bg-[#F6F7BD] py-4 px-6 placeholder:text-[#655643]/[0.7] text-[#33281E] rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
@@ -108,7 +108,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say"
-              className="bg-[#F6F7BD] py-4 px-6 placeholder:text-[#655643]/[0.7] text-white rounded-lg outline-none border-none font-medium"
+              className="bg-[#F6F7BD] py-4 px-6 placeholder:text-[#655643]/[0.7] text-[#33281E] rounded-lg outline-none border-none font-medium"
             />
           </label>
           <button

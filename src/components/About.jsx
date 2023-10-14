@@ -35,13 +35,13 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant(0.5)}>
+      <motion.div variants={textVariant(0.2)}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={`${styles.sectionHeadText} text-white drop-shadow-md`}>Overview</h2>
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.5, 1)}
+        variants={fadeIn("", "", 0.2, 0.75)}
         className="mt-4 text-white text-[17px] max-w-3xl leading-[30px]"
       >
         Mi sto specializzando nei campi del front-end development e React Native
